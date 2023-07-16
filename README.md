@@ -5,12 +5,12 @@
 [Buy Me a Coffee](https://www.buymeacoffee.com/tastekim)
 ## Install
 ```
-npm install tastekim-shortener
+npm install @tastekim/url-shortener
 ```
 ## Usage
 
 ```typescript
-import { TasteShortener } from 'tastekim-shortener';
+import { TasteShortener } from '@tastekim/url-shortener';
 
 const url = 'http://github.com/tastekim';
 const result = await TasteShortener(url);
@@ -19,7 +19,7 @@ console.log(result);
 
 // or
 
-const { TasteShortener } = require('tastekim-shortener');
+const { TasteShortener } = require('@tastekim/url-shortener');
 
 const url = 'http://github.com/tastekim';
 const result = await TasteShortener(url);

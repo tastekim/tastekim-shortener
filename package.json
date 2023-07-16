@@ -1,17 +1,17 @@
 {
-  "name": "tastekim-shortener",
-  "version": "1.1.0",
-  "description": "",
+  "name": "@tastekim/url-shortener",
+  "version": "1.1.2",
+  "description": "🇰🇷 Easy way to make your long url shorter.",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tastekim/tastekim-shortener.git"
+    "url": "git+https://github.com/tastekim/tastekim-shortener.git"
   },
   "bugs": {
-    "email": "tastekim@kakao.com",
-    "url": "https://github.com/tastekim/tastekim-shortener.git"
+    "url": "https://github.com/tastekim/tastekim-shortener.git",
+    "email": "tastekim@kakao.com"
   },
   "homepage": "https://github.com/tastekim/tastekim-shortener.git",
   "exports": {
