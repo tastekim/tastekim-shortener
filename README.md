@@ -9,7 +9,7 @@ npm install tastekim-shortener
 ## Usage
 
 ```typescript
-import { TastekimShortener } from 'tastekim-shortener';
+import { TasteShortener } from 'tastekim-shortener';
 
 const url = 'http://github.com/tastekim';
 const result = await TasteShortener(url);
@@ -19,4 +19,4 @@ console.log(result);
 ```
 
 ## Warning
-짧은 시간 동안에 shorten url 을 다량 생성하게 되면 대기 시간이 생깁니다.
+* 짧은 시간 동안에 shorten url 을 다량 생성하게 되면 대기 시간이 생깁니다.

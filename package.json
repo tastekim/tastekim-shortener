@@ -1,10 +1,19 @@
 {
   "name": "tastekim-shortener",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/mjs/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tastekim/tastekim-shortener.git"
+  },
+  "bugs": {
+    "email": "tastekim@kakao.com",
+    "url": "https://github.com/tastekim/tastekim-shortener.git"
+  },
+  "homepage": "https://github.com/tastekim/tastekim-shortener.git",
   "exports": {
     ".": {
       "import": "./dist/mjs/index.js",
