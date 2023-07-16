@@ -30,12 +30,16 @@ export const TasteShortener = async (url: string) => {
         };
     }
   } catch (error) {
-    if (error instanceof Error) {
-      return {
+    return error instanceof Error ?
+      {
         success : false,
         message : error.message,
         shortenUrl : '',
+      } :
+      {
+        success : false,
+        message : 'Unknown error. Please try again or send email to me',
+        shortenUrl : '',
       };
-    }
   }
 };
